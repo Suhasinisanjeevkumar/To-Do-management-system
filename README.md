@@ -24,14 +24,13 @@ It allows users to create, update, view, and delete tasks in an organized way.
 
 ## 🛠️ Tech Stack
 
-- Java 17  
+- Java  
 - Spring Boot  
 - Spring MVC  
-- Spring Data JPA  
-- Hibernate  
-- H2 / MySQL Database  
+- Spring Data JPA    
+- MySQL Database  
 - Maven  
-- Thymeleaf (if used)
+
 
 ---
 
