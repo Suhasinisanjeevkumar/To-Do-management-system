@@ -36,20 +36,23 @@ It allows users to create, update, view, and delete tasks in an organized way.
 ---
 
 ## 📁 Project Structure
-src
-├── main
-│ ├── java
-│ │ └── org.todo.todorails
-│ │ ├── controller
-│ │ ├── service
-│ │ ├── repository
-│ │ ├── model
-│ │ └── config
-│ └── resources
-│ ├── templates
-│ ├── static
-│ └── application.properties
-└── test
+
+```plaintext
+src/
+├── main/
+│   ├── java/
+│   │   └── org/todo/todorails/
+│   │       ├── controller/
+│   │       ├── service/
+│   │       ├── repository/
+│   │       ├── model/
+│   │       └── config/
+│   └── resources/
+│       ├── templates/
+│       ├── static/
+│       └── application.properties
+└── test/
+```
 
 
 ---
