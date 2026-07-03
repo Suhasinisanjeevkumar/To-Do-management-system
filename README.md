@@ -1,11 +1,107 @@
-📌 To-Do Management System
+# 📌 To-Do Management System
 
-A simple and efficient To-Do Management Web Application built using Spring Boot.
-This project helps users manage daily tasks by adding, updating, viewing, and deleting tasks easily.
+A full-stack **Spring Boot based To-Do application** that helps users efficiently manage their daily tasks with CRUD operations.
+
+---
+
+## 🚀 Project Overview
+
+This project is a simple yet powerful task management system built using Spring Boot.  
+It allows users to create, update, view, and delete tasks in an organized way.
+
+---
+
+## ✨ Features
+
+- ➕ Add new tasks  
+- 📋 View all tasks  
+- ✏️ Update existing tasks  
+- ❌ Delete tasks  
+- ✔️ Mark tasks as completed  
+- ⚡ Fast and lightweight Spring Boot backend  
+
+---
+
+## 🛠️ Tech Stack
+
+- Java 17  
+- Spring Boot  
+- Spring MVC  
+- Spring Data JPA  
+- Hibernate  
+- H2 / MySQL Database  
+- Maven  
+- Thymeleaf (if used)
+
+---
+
+## 📁 Project Structure
+src
+├── main
+│ ├── java
+│ │ └── org.todo.todorails
+│ │ ├── controller
+│ │ ├── service
+│ │ ├── repository
+│ │ ├── model
+│ │ └── config
+│ └── resources
+│ ├── templates
+│ ├── static
+│ └── application.properties
+└── test
 
 
-## Features
-- Add task  
-- Delete task  
-- Update task  
-- View tasks  
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the repository
+
+git clone https://github.com/Suhasinisanjeevkumar/To-Do-management-system.git
+
+
+### 2️⃣ Navigate to project folder
+
+cd To-Do-management-system
+
+
+### 3️⃣ Run the application
+
+./mvnw spring-boot:run
+
+
+👉 For Windows:
+mvnw spring-boot:run
+
+
+---
+
+## 🌐 Access Application
+
+Once the application starts, open your browser:
+http://localhost:8080/
+
+
+---
+
+## 📡 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | /tasks | Get all tasks |
+| POST | /tasks | Create new task |
+| PUT | /tasks/{id} | Update task |
+| DELETE | /tasks/{id} | Delete task |
+
+---
+
+## 🧑‍💻 Author
+
+**Suhasini Sanjeev Kumar**  
+GitHub: https://github.com/Suhasinisanjeevkumar
+
+---
+
+
+
